@@ -10,7 +10,7 @@
  <p>There are no comments yet.</p>
 {% endfor %}
 
-<h2>Add a new comment</h2>
+<h2>Добавьте новый комментарий</h2>
  <form action="{% url "blog:post_comment" post.id %}" method="post">
  {{ form.as_p }}
  {% csrf_token %}

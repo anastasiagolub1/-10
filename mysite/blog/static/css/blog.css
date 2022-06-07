@@ -1,18 +1,31 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
-}
+    font-family:helvetica, sans-serif;
+    font-stretch: expanded;
+    font-family: "Times New Roman", Georgia, Serif;
+    background: url('https://all-t-shirts.ru/goods_images/ru132294II00053850d7ea2ad54b40941a5421dc48d3f.jpg');
 
+
+}
+.huhih {
+    background-color: #a98e8e91;
+    margin: 5%;
+    margin-left: 1%;
+    padding: 2.5%;
+}
 a { 
-    color:#00abff;
-    text-decoration:none; 
+    color:#ffffff;
+    text-decoration:none;
+    font-weight: 900;
+
 }
 
 h1 { 
     font-weight:normal;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
+    font-style: initial;
 }
 
 h2 {
@@ -22,13 +35,13 @@ h2 {
 
 #content { 
     float:left;
-    width:60%;
+    width:70%;
     padding:0 0 0 30px; 
 }
 
 #sidebar { 
     float:right;
-    width:30%;
+    width:25%;
     padding:10px;
     background:#efefef; 
     height:100%;
@@ -51,7 +64,7 @@ p.date {
 label { 
     float:left;
     clear:both;
-    color:#333;
+    color:#686;
     margin-bottom:4px; 
 }
 input, textarea { 

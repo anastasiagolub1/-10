@@ -2,10 +2,10 @@
 {% block title %}Add a comment{% endblock %}
 {% block content %}
  {% if comment %}
- <h2>Your comment has been added.</h2>
+ <h2>Ваш комментарий был добавлен.</h2>
  <p><a href="{% url 'blog:post_detail' post.id %}">Back to the post</a></p>
  {% else %}
- <h2>Add a new comment</h2>
+ <h2>Добавить новый комментарий.</h2>
 <form action="{% url "blog:post_comment" post.id %}" method="post">
  {{ form.as_p }}
  {% csrf_token %}

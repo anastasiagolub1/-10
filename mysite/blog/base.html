@@ -3,6 +3,11 @@
 <html>
 <head>
 	 <title>{% block title %}{% endblock %}</title>
+	 <style>
+		 .nubex {
+		 font-style: italic;
+		 }
+	 </style>
 	 <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
 <body>
@@ -10,8 +15,8 @@
 		{% block content %}{% endblock %}
  	</div>
  <div id="sidebar">
-	<h2>My blog</h2>
-		<p>This is my blog.</p>
+	<em><h2>Mini-pigs</h2></em>
+		<p>A little about pigs</p>
  	</div>
 </body>
 </html>
