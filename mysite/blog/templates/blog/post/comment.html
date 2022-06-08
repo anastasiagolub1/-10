@@ -3,7 +3,7 @@
 {% block content %}
  {% if comment %}
  <h2>Ваш комментарий был добавлен.</h2>
- <p><a href="{% url 'blog:post_detail' post.id %}">Back to the post</a></p>
+ <p><a href="{% url 'blog:post_detail' post.id %}">Возвращение к посту.</a></p>
  {% else %}
  <h2>Добавить новый комментарий.</h2>
 <form action="{% url "blog:post_comment" post.id %}" method="post">
